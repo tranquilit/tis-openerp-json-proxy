@@ -6,10 +6,10 @@ JSON Proxy to OpenERP 6.0 server using NetRPC protocol.
 
 Requirements
 ------------
-*python
-*flask
-*flask-openerp (https://github.com/matrixise/flask-openerp)
-*uwsgi
+* python
+* flask
+* flask-openerp (https://github.com/matrixise/flask-openerp)
+* uwsgi
 
 Installation
 ------------
