@@ -1,0 +1,9 @@
+easy_install uwsgi
+easy_install flask
+easy_install flask-sqlalchemy
+
+Install de openerp-flask
+wget "https://bitbucket.org/matrixise/flask-openerp/get/ef7310f26344.tar.gz"
+tar -zxvf ef7310f26344.tar.gz
+cd matrixise-flask-openerp-ef7310f26344/
+python setup.py  install

@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Indication  
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20090910
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Mills Activity Monitoring</title>
+<link href="{{url_for('static',filename='style.css')}}" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body background=bg_body.gif>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">WAPT Server</a></h1>
+			<p> design by <a href="http://www.tranquil-it-systems.fr">Tranquil IT Systems</a></p>
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="menu">
+		<ul>
+			<li class="current_page_item"><a href="#">Machines</a></li>
+			<li><a href="#">Groupe de machines</a></li>
+			<li><a href="#">Applications</a></li>
+			<li><a href="#">Groupe d'applications</a></li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<div id="page">
+	<div id="page-bgtop">
+	<div id="page-bgbtm">
+		<div id="content">
+			<div class="post">
+{% block content %}{% endblock %}
+		</div>
+		<!-- end #content -->
+		<div id="sidebar">
+{% block sidebar %}{% endblock %}
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	</div>
+	</div>
+	<!-- end #page -->
+</div>
+	<div id="footer">
+		<p>Copyright (c) 2012 Tranquil IT Systems. All rights reserved. Design by <a href="http://www.tranquil-it-systems.fr/">TIS</a>.</p>
+	</div>
+	<!-- end #footer -->
+</body>
+</html>
